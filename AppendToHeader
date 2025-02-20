@@ -98,7 +98,7 @@ def append_to_footer_once(filepath, text_to_append):
     doc.save(filepath)
 
 directory_path = r'##'  # Path to the folder containing the .docx files (## must be replaced with the actual path)
-#file_path = r'C:\Users\jros\Desktop\proyectos\ISO\test\proves\equisde.docx'
+#file_path = r'##'
 text_to_append = ' USO INTERNO '
 #append_to_header(directory_path, text_to_append)
 append_to_footer_full(directory_path, text_to_append)
