@@ -25,5 +25,5 @@ def convert_docs_in_folder(folder_path):
                 except Exception as e:
                     print(f"Error converting {docx_path}: {e}")
 
-folder_path = r'C:\Users\jros\Dropbox\2_ISO EXPOCOM\00_SEGURIDAD DE LA INFORMACIÓN\000_POLÍTICAS SI' # Path to the folder containing the .doc files (## must be replaced with the actual path)
+folder_path = r'##' # Path to the folder containing the .doc files (## must be replaced with the actual path)
 convert_docs_in_folder(folder_path)
