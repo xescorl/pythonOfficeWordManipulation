@@ -3,7 +3,7 @@ import pandas as pd
 from PyPDF2 import PdfReader
 
 # Ruta del directorio con los archivos PDF
-directory = r"C:\Users\jros\Desktop\proyectos\ISO\test\proves"
+directory = r"##"
 
 # Lista para almacenar los metadatos
 metadata_list = []
