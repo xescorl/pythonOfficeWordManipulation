@@ -30,5 +30,5 @@ def clean_metadata_in_directory(directory):
                 remove_metadata(file_path)
 
 if __name__ == "__main__":
-    directory = r'C:\Users\jros\Dropbox\2_ISO EXPOCOM\5_REGISTROS\920 AUDITORIAS\AE2025\ENS\F1 Documentación'
+    directory = r'##'
     clean_metadata_in_directory(directory)
